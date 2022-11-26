@@ -1,0 +1,7 @@
+package OHRMpages.leave;
+
+import base.OHRM.OHRMBase;
+
+public class ApplyLeave extends OHRMBase {
+
+}

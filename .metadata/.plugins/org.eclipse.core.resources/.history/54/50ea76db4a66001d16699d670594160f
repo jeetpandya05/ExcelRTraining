@@ -1,0 +1,10 @@
+package OHRMpages.leave;
+
+import base.OHRM.OHRMBase;
+
+public class AssignPage extends OHRMBase{
+
+	public void AssignLeave() {
+		
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteParameter">
+
+  <test thread-count="5" name="ParameterTest">
+  	<parameter name="username" value="TestAdmin"></parameter>
+  	<parameter name="password" value="Testpassword"></parameter>
+  	
+    <classes>
+      <class name="TestNGMaven.ParametersTest"/>
+    </classes>
+    
+  </test> <!-- ParameterTest -->
+</suite> <!-- SuiteParameter -->

@@ -1,0 +1,65 @@
+package TestAssignment;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		//1.
+		String input = "ajay";
+				
+		for(int name=input.length();name>0;name--)                //i is the length of the string  
+		{  
+		System.out.print(input.charAt(name-1));            //printing the character at index i-1  
+		}  
+		
+		
+		//2.
+		Object[] array = {2,5,-3,-5,43,46};
+		
+		for (int i = 0; i < array.length;i++) {
+			Object j = array[i];
+			
+			
+			if (j==array[i]) {
+				System.out.println("Yes, Present");
+			} else {
+				System.out.println("Not Present");
+			}
+		}
+		
+		
+		//3.
+		int[] nums = {12, 6, 4, 2};
+		int sum = 0;
+		for (int i = 0; i < nums.length; i++) {  
+	           sum = sum + nums[i];  
+	        }  
+	        System.out.println(sum);  
+	      
+		
+		
+		//6.
+//		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+		List<WebElement>link=driver.findElements(By.tagName("a"));
+		System.out.println(link.size());
+		
+		for (WebElement l : link) {
+			System.out.println(l.getText());
+		}
+		
+		driver.quit();
+	}
+}

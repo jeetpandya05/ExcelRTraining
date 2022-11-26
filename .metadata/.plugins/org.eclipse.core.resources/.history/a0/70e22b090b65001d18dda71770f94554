@@ -1,0 +1,51 @@
+package TestCases;
+
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import OHRMpages.LoginPage;
+import base.OHRM.OHRMBase;
+
+public class LoginPageTest extends OHRMBase {
+
+	LoginPage page;
+	
+	@BeforeMethod
+	public void browserLaunch() throws InterruptedException {
+		chromeDriver();
+		openURL();
+		 page = new LoginPage();
+
+	}
+	
+	@Test
+	public void validateLogin() {
+		Assert.assertTrue(page.loginTest());
+	}
+	
+	@Test
+	public void validateLogo() {
+		Assert.assertTrue(page.getLogo());
+	}
+	
+	@Test
+	public void validateTitle() {
+		String actTitle = page.getPageTitle();
+		String expTitle = "OrangeHRM";
+		Assert.assertEquals(actTitle, expTitle);
+	}
+	
+	@Test
+	public void validateForgotPassword() {
+		boolean check = page.forgotPassword();
+		Assert.assertTrue(check);
+	}
+	
+	@AfterMethod
+	public void quit() {
+		browserQuit();
+	}
+}

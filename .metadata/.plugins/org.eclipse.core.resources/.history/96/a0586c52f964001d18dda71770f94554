@@ -1,0 +1,46 @@
+package TestCases;
+
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import BrowserLaunch.BrowserConfig;
+import BrowserLaunch.Login;
+
+public class LoginTest extends BrowserConfig {
+
+	Login lg;
+	
+	@BeforeMethod
+	public void browserLaunch() throws InterruptedException {
+		chromeDriver();
+		openURL();
+	}
+	
+	@Test
+	public void validateLogin() {
+		lg.loginTest();
+	}
+	
+	@Test
+	public void validateLogo() {
+		boolean logo = driver.findElement(By.xpath("//img[@alt='company-branding']")).isDisplayed();
+		Assert.assertTrue(logo);
+	}
+	
+	@Test
+	public void validateTitle() {
+		String actTitle = driver.getTitle();
+		String expTitle = "OrangeHRM";
+		Assert.assertEquals(actTitle, expTitle);
+		
+	}
+	
+	@AfterMethod
+	public void quit() {
+		browserQuit();
+	}
+}

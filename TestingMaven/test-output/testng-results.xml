@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T10:20:52 IST" name="Suite" finished-at="2022-11-13T10:22:50 IST" duration-ms="117725">
+    <groups>
+      <group name="regression">
+        <method signature="Drag_n_Drop.DragDrop()[pri:0, instance:XMLtest.Drag_n_Drop@4690b489]" name="DragDrop" class="XMLtest.Drag_n_Drop"/>
+        <method signature="Navigation.Nav()[pri:0, instance:XMLtest.Navigation@460d0a57]" name="Nav" class="XMLtest.Navigation"/>
+        <method signature="OrangeHRM.HRM()[pri:0, instance:XMLtest.OrangeHRM@4386f16]" name="HRM" class="XMLtest.OrangeHRM"/>
+        <method signature="iFrame.iFram()[pri:0, instance:XMLtest.iFrame@363ee3a2]" name="iFram" class="XMLtest.iFrame"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AmazonCart.AmazonaddtoCart()[pri:0, instance:XMLtest.AmazonCart@47d90b9e]" name="AmazonaddtoCart" class="XMLtest.AmazonCart"/>
+        <method signature="DropDown.DD()[pri:0, instance:XMLtest.DropDown@5ccddd20]" name="DD" class="XMLtest.DropDown"/>
+        <method signature="MouseHover.Hover()[pri:0, instance:XMLtest.MouseHover@79b06cab]" name="Hover" class="XMLtest.MouseHover"/>
+        <method signature="NewWindow.Window()[pri:0, instance:XMLtest.NewWindow@2ea227af]" name="Window" class="XMLtest.NewWindow"/>
+        <method signature="Radiobutton_Checkbox.Button()[pri:0, instance:XMLtest.Radiobutton_Checkbox@3eb7fc54]" name="Button" class="XMLtest.Radiobutton_Checkbox"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-13T10:20:52 IST" name="Test1" finished-at="2022-11-13T10:22:39 IST" duration-ms="106780">
+      <class name="XMLtest.NewWindow">
+        <test-method signature="Window()[pri:0, instance:XMLtest.NewWindow@2ea227af]" started-at="2022-11-13T10:20:52 IST" name="Window" finished-at="2022-11-13T10:22:13 IST" duration-ms="80969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Window -->
+      </class> <!-- XMLtest.NewWindow -->
+      <class name="XMLtest.MouseHover">
+        <test-method signature="Hover()[pri:0, instance:XMLtest.MouseHover@79b06cab]" started-at="2022-11-13T10:20:52 IST" name="Hover" finished-at="2022-11-13T10:22:34 IST" duration-ms="102334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hover -->
+      </class> <!-- XMLtest.MouseHover -->
+      <class name="XMLtest.iFrame">
+        <test-method signature="iFram()[pri:0, instance:XMLtest.iFrame@363ee3a2]" started-at="2022-11-13T10:20:52 IST" name="iFram" finished-at="2022-11-13T10:21:30 IST" duration-ms="38237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iFram -->
+      </class> <!-- XMLtest.iFrame -->
+      <class name="XMLtest.Drag_n_Drop">
+        <test-method signature="DragDrop()[pri:0, instance:XMLtest.Drag_n_Drop@4690b489]" started-at="2022-11-13T10:20:52 IST" name="DragDrop" finished-at="2022-11-13T10:21:25 IST" duration-ms="33061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragDrop -->
+      </class> <!-- XMLtest.Drag_n_Drop -->
+      <class name="XMLtest.OrangeHRM">
+        <test-method signature="HRM()[pri:0, instance:XMLtest.OrangeHRM@4386f16]" started-at="2022-11-13T10:20:52 IST" name="HRM" finished-at="2022-11-13T10:21:40 IST" duration-ms="48140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HRM -->
+      </class> <!-- XMLtest.OrangeHRM -->
+      <class name="XMLtest.Navigation">
+        <test-method signature="Nav()[pri:0, instance:XMLtest.Navigation@460d0a57]" started-at="2022-11-13T10:20:52 IST" name="Nav" finished-at="2022-11-13T10:22:39 IST" duration-ms="106721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nav -->
+      </class> <!-- XMLtest.Navigation -->
+      <class name="XMLtest.DropDown">
+        <test-method signature="DD()[pri:0, instance:XMLtest.DropDown@5ccddd20]" started-at="2022-11-13T10:20:52 IST" name="DD" finished-at="2022-11-13T10:22:10 IST" duration-ms="77726" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bbb63c9351ae490875267cd021c89d4, clickElement {id=6788e0f9-8814-4a36-9af4-c6611964332e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49605/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6bbb63c9351ae490875267cd021c89d4)] -> id: field1]
+Session ID: 6bbb63c9351ae490875267cd021c89d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bbb63c9351ae490875267cd021c89d4, clickElement {id=6788e0f9-8814-4a36-9af4-c6611964332e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49605/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6bbb63c9351ae490875267cd021c89d4)] -> id: field1]
+Session ID: 6bbb63c9351ae490875267cd021c89d4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at XMLtest.DropDown.DD(DropDown.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DD -->
+      </class> <!-- XMLtest.DropDown -->
+      <class name="XMLtest.Radiobutton_Checkbox">
+        <test-method signature="Button()[pri:0, instance:XMLtest.Radiobutton_Checkbox@3eb7fc54]" started-at="2022-11-13T10:20:52 IST" name="Button" finished-at="2022-11-13T10:21:41 IST" duration-ms="49063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Button -->
+      </class> <!-- XMLtest.Radiobutton_Checkbox -->
+      <class name="XMLtest.AmazonCart">
+        <test-method signature="AmazonaddtoCart()[pri:0, instance:XMLtest.AmazonCart@47d90b9e]" started-at="2022-11-13T10:20:52 IST" name="AmazonaddtoCart" finished-at="2022-11-13T10:22:25 IST" duration-ms="93370" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <p class="a-text-left a-size-base">...</p> is not clickable at point (692, 689). Other element would receive the click: <a href="/dp/B09G9FVVQY/ref=twister_B09GFZ4DJ8?_encoding=UTF8&amp;psc=1" style="height:100%; width:100%"></a>
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f3e3e2bab4b4ffd5127dfa0ccae37fd, clickElement {id=b904e094-399d-49ed-964f-dfb1a0937eee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49623/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (5f3e3e2bab4b4ffd5127dfa0ccae37fd)] -> xpath: //p[normalize-space()='1TB']]
+Session ID: 5f3e3e2bab4b4ffd5127dfa0ccae37fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p class="a-text-left a-size-base">...</p> is not clickable at point (692, 689). Other element would receive the click: <a href="/dp/B09G9FVVQY/ref=twister_B09GFZ4DJ8?_encoding=UTF8&amp;psc=1" style="height:100%; width:100%"></a>
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f3e3e2bab4b4ffd5127dfa0ccae37fd, clickElement {id=b904e094-399d-49ed-964f-dfb1a0937eee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49623/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (5f3e3e2bab4b4ffd5127dfa0ccae37fd)] -> xpath: //p[normalize-space()='1TB']]
+Session ID: 5f3e3e2bab4b4ffd5127dfa0ccae37fd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at XMLtest.AmazonCart.AmazonaddtoCart(AmazonCart.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonaddtoCart -->
+      </class> <!-- XMLtest.AmazonCart -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-11-13T10:22:39 IST" name="Test2" finished-at="2022-11-13T10:22:45 IST" duration-ms="5895">
+      <class name="SeleniumMaven.FacebookTest">
+        <test-method signature="FB()[pri:0, instance:SeleniumMaven.FacebookTest@50a638b5]" started-at="2022-11-13T10:22:39 IST" name="FB" finished-at="2022-11-13T10:22:45 IST" duration-ms="5889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FB -->
+      </class> <!-- SeleniumMaven.FacebookTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-11-13T10:22:45 IST" name="Test3" finished-at="2022-11-13T10:22:50 IST" duration-ms="4909">
+      <class name="TestNGMaven.AnnotationsDemo">
+        <test-method signature="titlelogo()[pri:0, instance:TestNGMaven.AnnotationsDemo@3c407114]" started-at="2022-11-13T10:22:45 IST" name="titlelogo" finished-at="2022-11-13T10:22:50 IST" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlelogo -->
+        <test-method signature="alpha()[pri:1, instance:TestNGMaven.AnnotationsDemo@3c407114]" started-at="2022-11-13T10:22:45 IST" name="alpha" finished-at="2022-11-13T10:22:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alpha -->
+        <test-method signature="bravo()[pri:2, instance:TestNGMaven.AnnotationsDemo@3c407114]" started-at="2022-11-13T10:22:45 IST" name="bravo" finished-at="2022-11-13T10:22:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bravo -->
+        <test-method signature="charlie()[pri:0, instance:TestNGMaven.AnnotationsDemo@3c407114]" started-at="2022-11-13T10:22:45 IST" name="charlie" finished-at="2022-11-13T10:22:45 IST" depends-on-methods="TestNGMaven.AnnotationsDemo.alpha" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- charlie -->
+      </class> <!-- TestNGMaven.AnnotationsDemo -->
+      <class name="TestNGMaven.TestVerify">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="launchBrowser" finished-at="2022-11-13T10:22:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="launchBrowser" finished-at="2022-11-13T10:22:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateLogo()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="validateLogo" finished-at="2022-11-13T10:22:45 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method signature="validateTitle()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="validateTitle" finished-at="2022-11-13T10:22:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="closeBrowser" finished-at="2022-11-13T10:22:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGMaven.TestVerify@2c767a52]" started-at="2022-11-13T10:22:45 IST" name="closeBrowser" finished-at="2022-11-13T10:22:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGMaven.TestVerify -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

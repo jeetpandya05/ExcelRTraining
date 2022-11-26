@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-20T10:37:49 IST" name="Suite" finished-at="2022-11-20T10:38:47 IST" duration-ms="57733">
+    <groups>
+    </groups>
+    <test started-at="2022-11-20T10:37:49 IST" name="Test" finished-at="2022-11-20T10:38:47 IST" duration-ms="57733">
+      <class name="TestCases.DashboardPageTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:37:49 IST" name="browserLaunch" finished-at="2022-11-20T10:38:01 IST" duration-ms="11976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateApplyLeaveLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:01 IST" name="validateApplyLeaveLauncher" finished-at="2022-11-20T10:38:01 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApplyLeaveLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:01 IST" name="quit" finished-at="2022-11-20T10:38:02 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:02 IST" name="browserLaunch" finished-at="2022-11-20T10:38:09 IST" duration-ms="7089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateAssignLeaveLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:09 IST" name="validateAssignLeaveLauncher" finished-at="2022-11-20T10:38:17 IST" duration-ms="8143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAssignLeaveLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:17 IST" name="quit" finished-at="2022-11-20T10:38:17 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:17 IST" name="browserLaunch" finished-at="2022-11-20T10:38:25 IST" duration-ms="7495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateLeaveListLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:25 IST" name="validateLeaveListLauncher" finished-at="2022-11-20T10:38:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeaveListLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:25 IST" name="quit" finished-at="2022-11-20T10:38:25 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:25 IST" name="browserLaunch" finished-at="2022-11-20T10:38:32 IST" duration-ms="7305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateMyLeaveLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:32 IST" name="validateMyLeaveLauncher" finished-at="2022-11-20T10:38:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyLeaveLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:32 IST" name="quit" finished-at="2022-11-20T10:38:33 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:33 IST" name="browserLaunch" finished-at="2022-11-20T10:38:39 IST" duration-ms="6915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateMyTimeSheetLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:39 IST" name="validateMyTimeSheetLauncher" finished-at="2022-11-20T10:38:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyTimeSheetLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:39 IST" name="quit" finished-at="2022-11-20T10:38:40 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:40 IST" name="browserLaunch" finished-at="2022-11-20T10:38:47 IST" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateTimeSheetLauncher()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:47 IST" name="validateTimeSheetLauncher" finished-at="2022-11-20T10:38:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeSheetLauncher -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.DashboardPageTest@41e36e46]" started-at="2022-11-20T10:38:47 IST" name="quit" finished-at="2022-11-20T10:38:47 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.DashboardPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

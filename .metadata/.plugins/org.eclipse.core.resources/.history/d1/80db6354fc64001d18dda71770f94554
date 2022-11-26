@@ -1,0 +1,9 @@
+package OrangeHRM;
+
+public class PageTitle extends OHRMBase {
+
+	
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+}

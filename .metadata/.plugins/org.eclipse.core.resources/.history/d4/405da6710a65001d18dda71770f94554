@@ -1,0 +1,29 @@
+package OHRMpages;
+
+import org.openqa.selenium.By;
+
+import base.OHRM.OHRMBase;
+
+public class LoginPage extends OHRMBase {
+	
+	
+	public void loginTest() {
+		driver.findElement(By.name("username")).sendKeys("Admin");
+		driver.findElement(By.name("password")).sendKeys("admin123");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+	}
+	
+	public boolean getLogo() {
+		return driver.findElement(By.xpath("//img[@alt='company-branding']")).isDisplayed();
+	}
+	
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+	
+	public boolean forgotPassword() {
+		driver.findElement(By.xpath("//p[text()='Forgot your password? ']")).click();
+		return driver.findElement(By.xpath("//h6[text()='Reset Password']")).isDisplayed();
+	}
+
+}

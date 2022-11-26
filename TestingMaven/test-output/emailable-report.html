@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">106,780</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,895</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test3</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,909</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">117,584</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">XMLtest.AmazonCart</td><td><a href="#m0">AmazonaddtoCart</a></td><td rowspan="1">1668315052502</td><td rowspan="1">93370</td></tr><tr class="failedodd"><td rowspan="1">XMLtest.DropDown</td><td><a href="#m1">DD</a></td><td rowspan="1">1668315052501</td><td rowspan="1">77726</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">XMLtest.Drag_n_Drop</td><td><a href="#m2">DragDrop</a></td><td rowspan="1">1668315052502</td><td rowspan="1">33061</td></tr><tr class="passedodd"><td rowspan="1">XMLtest.MouseHover</td><td><a href="#m3">Hover</a></td><td rowspan="1">1668315052501</td><td rowspan="1">102334</td></tr><tr class="passedeven"><td rowspan="1">XMLtest.Navigation</td><td><a href="#m4">Nav</a></td><td rowspan="1">1668315052501</td><td rowspan="1">106721</td></tr><tr class="passedodd"><td rowspan="1">XMLtest.NewWindow</td><td><a href="#m5">Window</a></td><td rowspan="1">1668315052500</td><td rowspan="1">80969</td></tr><tr class="passedeven"><td rowspan="1">XMLtest.OrangeHRM</td><td><a href="#m6">HRM</a></td><td rowspan="1">1668315052502</td><td rowspan="1">48140</td></tr><tr class="passedodd"><td rowspan="1">XMLtest.Radiobutton_Checkbox</td><td><a href="#m7">Button</a></td><td rowspan="1">1668315052500</td><td rowspan="1">49063</td></tr><tr class="passedeven"><td rowspan="1">XMLtest.iFrame</td><td><a href="#m8">iFram</a></td><td rowspan="1">1668315052502</td><td rowspan="1">38237</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumMaven.FacebookTest</td><td><a href="#m9">FB</a></td><td rowspan="1">1668315159351</td><td rowspan="1">5889</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">TestNGMaven.AnnotationsDemo</td><td><a href="#m10">alpha</a></td><td rowspan="1">1668315165316</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m11">bravo</a></td><td rowspan="1">1668315165319</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m12">charlie</a></td><td rowspan="1">1668315165321</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m13">titlelogo</a></td><td rowspan="1">1668315165277</td><td rowspan="1">4892</td></tr><tr class="passedodd"><td rowspan="2">TestNGMaven.TestVerify</td><td><a href="#m14">validateLogo</a></td><td rowspan="1">1668315165281</td><td rowspan="1">7</td></tr><tr class="passedodd"><td><a href="#m15">validateTitle</a></td><td rowspan="1">1668315165281</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Test1</h2><h3 id="m0">XMLtest.AmazonCart#AmazonaddtoCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;a-text-left a-size-base&quot;&gt;...&lt;/p&gt; is not clickable at point (692, 689). Other element would receive the click: &lt;a href=&quot;/dp/B09G9FVVQY/ref=twister_B09GFZ4DJ8?_encoding=UTF8&amp;amp;psc=1&quot; style=&quot;height:100%; width:100%&quot;&gt;&lt;/a&gt;
+  (Session info: chrome=107.0.5304.110)
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f3e3e2bab4b4ffd5127dfa0ccae37fd, clickElement {id=b904e094-399d-49ed-964f-dfb1a0937eee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49623}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49623/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (5f3e3e2bab4b4ffd5127dfa0ccae37fd)] -&gt; xpath: //p[normalize-space()=&apos;1TB&apos;]]
+Session ID: 5f3e3e2bab4b4ffd5127dfa0ccae37fd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at XMLtest.AmazonCart.AmazonaddtoCart(AmazonCart.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">XMLtest.DropDown#DD</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.110)
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.1&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bbb63c9351ae490875267cd021c89d4, clickElement {id=6788e0f9-8814-4a36-9af4-c6611964332e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/9w/zbsff6bd2tg...}, goog:chromeOptions: {debuggerAddress: localhost:49605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49605/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (6bbb63c9351ae490875267cd021c89d4)] -&gt; id: field1]
+Session ID: 6bbb63c9351ae490875267cd021c89d4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at XMLtest.DropDown.DD(DropDown.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">XMLtest.Drag_n_Drop#DragDrop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">XMLtest.MouseHover#Hover</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">XMLtest.Navigation#Nav</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">XMLtest.NewWindow#Window</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">XMLtest.OrangeHRM#HRM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">XMLtest.Radiobutton_Checkbox#Button</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">XMLtest.iFrame#iFram</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m9">SeleniumMaven.FacebookTest#FB</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m10">TestNGMaven.AnnotationsDemo#alpha</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestNGMaven.AnnotationsDemo#bravo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestNGMaven.AnnotationsDemo#charlie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestNGMaven.AnnotationsDemo#titlelogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestNGMaven.TestVerify#validateLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestNGMaven.TestVerify#validateTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

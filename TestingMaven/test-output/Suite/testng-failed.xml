@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test1(failed)">
+    <classes>
+      <class name="XMLtest.AmazonCart">
+        <methods>
+          <include name="AmazonaddtoCart"/>
+        </methods>
+      </class> <!-- XMLtest.AmazonCart -->
+      <class name="XMLtest.DropDown">
+        <methods>
+          <include name="DD"/>
+        </methods>
+      </class> <!-- XMLtest.DropDown -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

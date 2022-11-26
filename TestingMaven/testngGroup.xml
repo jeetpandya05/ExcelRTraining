@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteGroup">
+
+  <test thread-count="5" name="TestGroup">
+  	
+  	<groups>
+  		<run>
+  			<exclude name="smoke" />
+  			<include name="regression" />
+  		</run>
+  	</groups>
+    
+    <classes>
+      <class name="XMLtest.DropDown"/>
+      <class name="XMLtest.NewWindow"/>
+      <class name="XMLtest.OrangeHRM"/>
+      <class name="XMLtest.iFrame"/>
+      <class name="XMLtest.Drag_n_Drop"/>
+      <class name="XMLtest.MouseHover"/>
+      <class name="XMLtest.Radiobutton_Checkbox"/>
+      <class name="XMLtest.Navigation"/>
+      <class name="XMLtest.AmazonCart"/>
+    </classes>
+    
+  </test> <!-- TestGroup -->
+</suite> <!-- SuiteGroup -->

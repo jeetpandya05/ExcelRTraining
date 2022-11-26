@@ -1,0 +1,9 @@
+package OrangeHRM;
+
+public class PageTitle extends BrowserConfig {
+
+	
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+}
